@@ -1,0 +1,9 @@
+:root {
+    --bg-black: hsla(0, 0%, 10%, 1);
+    --text-white: hsla(360, 50%, 100%, 1);
+}
+
+body {
+    background-color: var(--bg-black);
+    color: var(--text-white);
+}
