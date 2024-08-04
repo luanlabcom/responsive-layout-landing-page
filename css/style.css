@@ -11,3 +11,12 @@ body {
     font-style: normal;
     font-size: 1.3125rem;
 }
+
+/**********
+COMPONENTS
+***********/
+.container {
+    width: 1128px;
+    max-width: 80%;
+    margin: 0 auto;
+}
