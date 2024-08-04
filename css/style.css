@@ -26,3 +26,18 @@ COMPONENTS
     max-width: 80%;
     margin: 0 auto;
 }
+
+/**********
+UTILITY CLASS
+***********/
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
