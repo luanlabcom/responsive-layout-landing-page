@@ -1,11 +1,17 @@
-:root {
-    --bg-black: hsla(0, 0%, 10%, 1);
-    --text-white: hsla(360, 50%, 100%, 1);
+/**********
+GENERIC STYLES
+***********/
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: var(--bg-black);
-    color: var(--text-white);
+    margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
