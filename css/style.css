@@ -34,12 +34,17 @@ LAYOUT
     max-width: 45em;
 }
 
-.primary-section {
+.primary-section,
+.secondary-section {
     padding: 3em 0;
 }
 
-.secondary-section {
-    background-color: black;
+.secondary-section--bg-222C2A {
+    background-color: #222C2A;
+}
+
+.secondary-section--bg-824936 {
+    background-color: #824936;
 }
 
 /***********
@@ -84,6 +89,10 @@ TYPOGRAPHY
 .secondary-section .section-title {
     text-align: left;
     color: hsla(360, 100%, 100%, 1);
+}
+
+.secondary-section .section-title {
+    margin-top: 0.2em;
 }
 
 /**********
