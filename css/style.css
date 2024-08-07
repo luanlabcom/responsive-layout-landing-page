@@ -33,6 +33,10 @@ LAYOUT
     max-width: 45em;
 }
 
+.primary-section {
+    padding: 3em 0;
+}
+
 /***********
 TYPOGRAPHY
 ************/
@@ -45,17 +49,26 @@ TYPOGRAPHY
     padding: 0;
 }
 
-.header__text h1 {
+.header__text h1,
+.section-title {
     color: #824936;
-    font-size: 3.75rem;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+}
+
+.header__text h1 {
+    font-size: 3.75rem;
     line-height: 1.125em;
     margin: 0;
-    padding: 0;
     margin-top: 0.1em;
+    padding: 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.25rem;
 }
 
 /**********
@@ -80,4 +93,20 @@ UTILITY CLASS
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.gap-16 {
+    gap: 3rem;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.w-50pct {
+    width: 50%;
 }
