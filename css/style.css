@@ -19,6 +19,21 @@ body {
 }
 
 /***********
+LAYOUT
+************/
+.header {
+    background-color: #F3EED9;
+    text-align: center;
+    min-height: 41.25em;
+}
+
+.header__text {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 45em;
+}
+
+/***********
 TYPOGRAPHY
 ************/
 .header__text h3 {    
