@@ -104,6 +104,10 @@ UTILITY CLASS
     justify-content: space-between;
 }
 
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
 .gap-16 {
     gap: 3rem;
 }
