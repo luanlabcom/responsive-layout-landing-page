@@ -72,6 +72,10 @@ TYPOGRAPHY
     font-size: 2.25rem;
 }
 
+.primary-section p {
+    color: #222C2A;
+}
+
 /**********
 COMPONENTS
 ***********/
