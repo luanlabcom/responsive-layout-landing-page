@@ -38,6 +38,10 @@ LAYOUT
     padding: 3em 0;
 }
 
+.secondary-section {
+    background-color: black;
+}
+
 /***********
 TYPOGRAPHY
 ************/
@@ -74,6 +78,12 @@ TYPOGRAPHY
 
 .primary-section p {
     color: #222C2A;
+}
+
+.secondary-section__text,
+.secondary-section .section-title {
+    text-align: left;
+    color: hsla(360, 100%, 100%, 1);
 }
 
 /**********
