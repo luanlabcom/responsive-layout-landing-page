@@ -18,6 +18,31 @@ body {
     font-size: 1.3125rem;
 }
 
+/***********
+TYPOGRAPHY
+************/
+.header__text h3 {    
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.header__text h1 {
+    color: #824936;
+    font-size: 3.75rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.125em;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.1em;
+}
+
 /**********
 COMPONENTS
 ***********/
