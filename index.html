@@ -11,46 +11,49 @@
     <title>Responsive Layout Landing Page</title>
 </head>
 <body>
-    <div id="root">
-        <header class="header flex flex-col justify-center">
-            <div class="header__text">
-                <h3>Lorem ipsum sit</h3>
-                <h1>Responsive layouts don't have to be a struggle</h1>
+    <section class="intro">
+        <div class="container">
+            <p class="intro__text"></p>
+            <h1 class="intro__title"></h1>
+        </div>
+    </section>
+
+    <section class="section-two">
+        <div class="container">
+            <h2 class="section-title section-title-dark"></h2>
+            <div class="row">
+                <div class="col">
+                    <p></p>
+                </div>
+                <div class="col">
+                    <p></p>
+                </div>
+            </div> <!-- / .row -->
+        </div>
+    </section>
+
+    <section class="section-three">
+        <div class="container row">
+            <div class="col">
+                <h2 class="section-title"></h2>
+                <p></p>
             </div>
-        </header>
-        <main class="main">
-            <section class="primary-section">
-                <div class="container">
-                    <h2 class="section-title">Quality Designs</h2>
-                    <div class="flex justify-between gap-16">
-                        <p class="w-50pct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos fuga, veritatis quas in odit exercitationem laboriosam omnis doloribus aspernatur asperiores culpa sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eveniet?</p>                   
-                        <p class="w-50pct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus ad quasi nam corrupti, veniam perferendis porro, at reiciendis ratione incidunt eos. Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div> <!-- / .container -->
-            </section>
+            <div class="col">
+                <img src="./images/image-01.jpg" alt="a sunset over a mountain range">
+            </div>
+        </div>
+    </section>
 
-            <section class="secondary-section secondary-section--bg-222C2A">
-                <div class="container flex justify-between gap-16">
-                    <div class="secondary-section__text w-50pct">
-                        <h2 class="section-title">Made custom for you</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos fuga, veritatis quas in odit exercitationem laboriosam omnis doloribus aspernatur asperiores culpa sint.
-                        </p>
-                    </div>
-                    <img class="secondary-section__img w-50pct" src="./images/image-01.jpg" alt="sunrise" />
-                </div><!-- / .container -->
-            </section>
-
-            <section class="secondary-section secondary-section--bg-824936">
-                <div class="container flex flex-row-reverse justify-between gap-16">
-                    <div class="secondary-section__text w-50pct">
-                        <h2 class="section-title">Created with care</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus ad quasi nam corrupti, veniam perferendis porro, at reiciendis ratione incidunt eos. Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <img class="secondary-section__img w-50pct" src="./images/image-02.jpg" alt="mountain" />  
-                </div><!-- / .container -->
-            </section>
-
-        </main>
+    <section class="section-four">
+       <div class="container row">
+            <div class="col">
+                <img src="./images/image-02.jpg" alt="a sunset over a mountain range with tree branches in the foreground">
+            </div>
+            <div class="col">
+                <h2 class="section-title"></h2>
+                <p></p>
+            </div>
+       </div>
+    </section>
 </body>
 </html>
